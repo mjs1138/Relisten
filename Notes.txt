@@ -1,0 +1,45 @@
+Rlisten API:
+https://relistenapi.alecgorge.com/api/v2/artists/grateful-dead/years/1969/1969-02-22
+
+URL Format
+	Available Artists:
+		https://relistenapi.alecgorge.com/api/v2/artists/
+	Available Years:
+		https://relistenapi.alecgorge.com/api/v2/artists/{slug}/years/
+	Available Shows:
+		https://relistenapi.alecgorge.com/api/v2/artists/{slug}/years/{year}/
+	Available Tracks:
+		https://relistenapi.alecgorge.com/api/v2/artists/{slug}/years/{year}/{yyyy-mm-dd}
+
+==========================================================================
+Possible Results:
+	# of shows by year
+	# of unique venues
+	# list of unique venues
+	venues by year
+	
+
+==========================================================================
+First song in the show (parsed from Json):
+http://relisten.net/grateful-dead/1969/2/22/duprees-diamond-blues
+
+
+
+
+==========================================================================================
+==========================================================================================
+https://archive.org/details/GratefulDead
+https://archive.org/details/GratefulDead
+
+https://archive.org/search.php?query=collection%3A%28GratefulDead%29&sort=titleSorter
+
+
+==========================================================================
+12/4/2017
+Stop Point: The app will search all shows in year for song entered.
+
+Plan: 
+	1 - Make so multiple years are searched
+	2 - Once song-players are displayed allow users to select / hide them
+	3 - The select / hide should probably be done via javascript as opposed to 
+		a new query.
