@@ -8,7 +8,7 @@
 
 <div class="container">
     <!--    <form action="/action_page.php"> -->
-    <form action="/getSongs.php">
+    <form action="getSongs.php">
         <label for="songTitle">Song Title</label>
         <input type="text" id="songTitle" name="songTitle" placeholder="Song Title.." value="dark star">
 
